@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Your other styles here -->
+
+    <style name="CircularShape">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.Circular</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Circular" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
