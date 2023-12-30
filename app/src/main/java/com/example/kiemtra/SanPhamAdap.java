@@ -36,6 +36,7 @@ public class SanPhamAdap extends RecyclerView.Adapter<SanPhamAdap.SanPhamViewHol
         Picasso picasso = Picasso.get();
         picasso.load(sanPham.getImage())
                 .into(holder.productImage);
+
     }
 
     @Override
@@ -55,5 +56,6 @@ public class SanPhamAdap extends RecyclerView.Adapter<SanPhamAdap.SanPhamViewHol
     public void setSanPhamList(List<SanPham> sanPhamList) {
         this.sanPhamList = sanPhamList;
     }
+
 
 }

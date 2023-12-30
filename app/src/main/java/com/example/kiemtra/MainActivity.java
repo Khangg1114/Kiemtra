@@ -3,20 +3,15 @@ package com.example.kiemtra;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         edtImageName = customDialogView.findViewById(R.id.edtImageName);
         btnClear = customDialogView.findViewById(R.id.btnClear);
         btnSave = customDialogView.findViewById(R.id.btnSave);
+        // Sự kiện lắng nghe cho flButton (FloatingActionButton)
         FloatingActionButton flButton = findViewById(R.id.flButton);
         flButton.setOnClickListener(new View.OnClickListener() {
             @Override
